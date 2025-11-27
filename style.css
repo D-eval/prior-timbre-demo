@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.audio-block { 
+    display: flex; 
+    gap: 30px; 
+}
+
+.audio-block audio {
+    width: 250px;
+}
+
+.img-block img {
+    width: 20%;
+    margin: 1%;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}

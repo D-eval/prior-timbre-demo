@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Prior-Driven Event Detection Demo</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+  <h1>Prior-Driven Sound Event Detection – Online Demo</h1>
+
+  <div id="sample-selector">
+    <label>Select sample:</label>
+    <select id="sampleSelect"></select>
+  </div>
+
+  <h2>Audio</h2>
+  <div class="audio-block">
+    <div>
+      <h3>Original</h3>
+      <audio id="audio-original" controls></audio>
+    </div>
+    <div>
+      <h3>Kernel</h3>
+      <audio id="audio-kernel" controls></audio>
+    </div>
+    <div>
+      <h3>Reconstructed</h3>
+      <audio id="audio-pred" controls></audio>
+    </div>
+  </div>
+
+  <h2>Visualizations</h2>
+  <div class="img-block">
+    <img id="img-waveform" />-<img id="img-kernel" />=<img id="img-subtract" />    
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
